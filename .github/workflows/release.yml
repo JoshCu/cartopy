@@ -76,6 +76,8 @@ jobs:
         include:
           - os: ubuntu-latest
             cibw_archs: "x86_64"
+          - os: ubuntu-latest
+            cibw_archs: "arm64"
           - os: windows-latest
             cibw_archs: "auto"
           - os: macos-latest
